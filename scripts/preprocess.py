@@ -1,3 +1,4 @@
+
 import os
 import json
 import logging
@@ -25,7 +26,7 @@ def aggregate_raw(paths, valid_pids):
 
     '''
     logger = logging.getLogger('default')
-    e4_dir, h7_dir = paths['e4_dir'], paths['h7_dir']
+    e4_dir, h7_dir = paths['data'], paths['data']
     pid_to_raw_df = {}
 
     # store raw e4 data
